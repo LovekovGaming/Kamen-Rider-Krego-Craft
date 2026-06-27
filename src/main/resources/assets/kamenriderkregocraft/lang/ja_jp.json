@@ -2,5 +2,8 @@
   "item.kamenridercraft.krego": "クレゴアマダム",
 
   "item.kamenridercraft.krego_belt": "クレゴベルト",
-  "kamenridercraft.name.krego":"ライダー: 仮面ライダークレゴ"
+  "kamenridercraft.name.krego":"ライダー: 仮面ライダークレゴ",
+
+  "item.kamenridercraft.krego_card": "カメンライド クレゴ",
+  "kamenridercraft:krego_card.name": "§9クレゴ"
 }
