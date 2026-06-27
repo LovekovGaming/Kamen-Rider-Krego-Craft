@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "krego",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:kuuga_mighty"
+	}, 
+	{
+	  "item": "kamenridercraft:agito_ground"
+	}, 
+	{
+	  "item": "kamenridercraft:g3"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:krego"
+  }
+}
