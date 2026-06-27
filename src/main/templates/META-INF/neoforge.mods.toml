@@ -35,10 +35,10 @@ updateJSONURL="https://raw.githubusercontent.com/LovekovGaming/Kamen-Rider-Krego
 displayURL="https://discord.gg/3b37BRX/"
 
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="logo.png"
 
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Kelco K22, and @marcyproto on eX-Twitter" #optional
 
 # A text field displayed in the mod UI
 authors="${mod_authors}" #optional
