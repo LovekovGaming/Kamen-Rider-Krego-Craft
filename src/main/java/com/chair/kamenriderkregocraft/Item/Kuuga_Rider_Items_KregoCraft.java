@@ -3,7 +3,7 @@ package com.chair.kamenriderkregocraft.Item;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.item.base_items.RiderDriverItem;
 import com.kelco.kamenridercraft.item.base_items.RiderFormChangeItem;
-import com.kelco.kamenridercraft.item.heisei_phase_1.Kuuga_Rider_Items;
+import com.kelco.kamenridercraft.item.heisei_phase_1.KuugaRiderItems;
 import com.kelco.kamenridercraft.particle.ModParticles;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -33,11 +33,11 @@ public class Kuuga_Rider_Items_KregoCraft {
                             player.getX(), player.getY() + 1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.IsGlowing().IsBeltGlowing().AddToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
+            }.isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
 
     public static final DeferredItem<Item> KREGO_BELT = ITEMS.register("krego_belt",
-            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego", KREGO, Kuuga_Rider_Items.KUUGAHELMET, Kuuga_Rider_Items.KUUGACHESTPLATE, Kuuga_Rider_Items.KUUGALEGGINGS, new Item.Properties())
-                    .Dont_show_belt_form_info().AddToTabList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).ChangeRepairItem(Kuuga_Rider_Items.KUUGA_GROWING.get()));
+            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego", KREGO, KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties())
+                    .hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).changeRepairItem(KuugaRiderItems.KUUGA_GROWING.get()));
 
 
     public static void register(IEventBus eventBus) {
