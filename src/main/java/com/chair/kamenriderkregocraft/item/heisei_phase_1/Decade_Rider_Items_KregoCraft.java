@@ -1,4 +1,4 @@
-package com.chair.kamenriderkregocraft.Item;
+package com.chair.kamenriderkregocraft.item.heisei_phase_1;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.item.base_items.RiderDriverItem;
@@ -13,7 +13,7 @@ public class Decade_Rider_Items_KregoCraft {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(KamenRiderCraftCore.MOD_ID);
 
     public static final DeferredItem<Item> KREGO_CARD = ITEMS.register("krego_card",
-            () -> new RiderSummonCardItem(new Item.Properties(), 1).setSummonBelt((RiderDriverItem) Kuuga_Rider_Items_KregoCraft.KREGO_BELT.get()).addToList(KamenRiderCraftCore.CreativeTabRegistry.DECADE_TAB_ITEM));
+            () -> new RiderSummonCardItem(new Item.Properties(), 1).setSummonBelt((RiderDriverItem) Kuuga_Rider_Items_KregoCraft.ARCLE_ZWEI.get()).addToList(KamenRiderCraftCore.CreativeTabRegistry.DECADE_TAB_ITEM));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

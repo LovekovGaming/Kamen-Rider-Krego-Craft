@@ -32,6 +32,167 @@
 					"position": [0, -0.5, 0]
 				}
 			}
+		},
+		"krego.krego_dragon.pose": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"rotation": [17, 32, -12],
+					"position": [1, -5, 0]
+				},
+				"left_leg": {
+					"rotation": [-30, -4, -37]
+				},
+				"right_leg": {
+					"rotation": [-3, 37, -1],
+					"position": [-2, 5, -5]
+				},
+				"head": {
+					"rotation": [-23, -27, 23]
+				},
+				"right_arm": {
+					"rotation": [-85, 40, 15],
+					"position": [-1, -1, 2]
+				},
+				"right_item": {
+					"rotation": [57.5, 0, 0],
+					"position": {
+						"0.0": [1.78334, -1.3186, 2.25945],
+						"0.1667": [2.58599, 0.4654, 2.66337]
+					}
+				},
+				"left_arm": {
+					"rotation": [-70, -47, 0]
+				}
+			}
+		},
+		"krego.krego_pegasus.pose": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"rotation": [2, -17, -5],
+					"position": [0, -1, 0]
+				},
+				"torso": {
+					"rotation": [-3, -10, -3],
+					"position": [-1, 0, 0]
+				},
+				"left_leg": {
+					"rotation": [0, -28, 0],
+					"position": [1, 0, -1]
+				},
+				"right_leg": {
+					"rotation": [4, 17, 13]
+				},
+				"head": {
+					"rotation": [1, 12, 5]
+				},
+				"right_arm": {
+					"rotation": [0, -2, 9],
+					"position": [0, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [-118, -50, 0],
+					"position": [-1, -2, 1]
+				},
+				"leftItem": {
+					"rotation": [-13.7793, 5.5104, 1.6544]
+				}
+			}
+		},
+		"krego.krego_titan.pose": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"rotation": [8, 0, 0],
+					"position": [0, -2, 0]
+				},
+				"torso": {
+					"rotation": [5, 0, 0],
+					"position": [0, 0, -1]
+				},
+				"left_leg": {
+					"rotation": [-27, -1, 0]
+				},
+				"right_leg": {
+					"rotation": [25, -3, -1],
+					"position": [0, 0, 0]
+				},
+				"head": {
+					"rotation": [-8, 0, 0]
+				},
+				"right_arm": {
+					"rotation": [4, 24, 16]
+				},
+				"left_arm": {
+					"rotation": [4, -24, -16]
+				}
+			}
+		},
+		"krego.krego_burning.pose": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"body": {
+					"rotation": [0, -43, 0],
+					"position": [0, -4, 0]
+				},
+				"left_leg": {
+					"rotation": [16, -14, -21],
+					"position": [0, 2, -3]
+				},
+				"right_leg": {
+					"rotation": [-1, 50, 31],
+					"position": [-1, 0, -1]
+				},
+				"right_arm": {
+					"rotation": [-105, -26, -4],
+					"position": [0, 0, -1]
+				},
+				"left_arm": {
+					"rotation": [-149, 65, -90],
+					"position": [0, -2, -2]
+				},
+				"head": {
+					"rotation": [0, 37, 0]
+				},
+				"torso": {
+					"rotation": [-3, -5, 0]
+				}
+			}
+		},
+		"krego.krego_shining_ultimate.pose": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [5, 53, 0],
+					"position": [0, -3, 0]
+				},
+				"torso": {
+					"rotation": [-2, 0, 2],
+					"position": [0, 0, 0]
+				},
+				"left_leg": {
+					"rotation": [11, -39, -43],
+					"position": [1, -1, -2]
+				},
+				"right_leg": {
+					"rotation": [14, -20, 33],
+					"position": [0, 0, -2]
+				},
+				"head": {
+					"rotation": [-7, -55, 9]
+				},
+				"right_arm": {
+					"rotation": [-105, -54, 35],
+					"position": [-1, -2, -2]
+				},
+				"left_arm": {
+					"rotation": [-95, -51, -16]
+				}
+			}
 		}
 	}
 }

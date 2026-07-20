@@ -1,9 +1,25 @@
 {
-  "item.kamenridercraft.krego": "クレゴアマダム",
+  "item.kamenridercraft.krego": "クレゴオールマイティアマダム",
+  "kamenridercraft:krego.form": "フォーム: オールマイティフォーム",
+  "item.kamenridercraft.krego_dragon": "クレゴドラゴンアマダム",
+  "kamenridercraft:krego_dragon.form": "フォーム: ドラゴンフォーム",
+  "item.kamenridercraft.krego_pegasus": "クレゴペガサスアマダム",
+  "kamenridercraft:krego_pegasus.form": "フォーム: ペガサスフォーム",
+  "item.kamenridercraft.krego_titan": "クレゴタイタンアマダム",
+  "kamenridercraft:krego_titan.form": "フォーム: タイタンフォーム",
+  "item.kamenridercraft.krego_burning": "クレゴバーニングアマダム",
+  "kamenridercraft:krego_burning.form": "フォーム: バーニングフォーム",
+  "item.kamenridercraft.krego_shining_ultimate": "クレゴシャイニングアルティメットアマダム",
+  "kamenridercraft:krego_shining_ultimate.form": "フォーム: シャイニングアルティメットフォーム",
 
-  "item.kamenridercraft.krego_belt": "クレゴベルト",
+  "item.kamenridercraft.krego_belt": "アークルツバイ",
   "kamenridercraft.name.krego":"ライダー: 仮面ライダークレゴ",
 
   "item.kamenridercraft.krego_card": "カメンライド クレゴ",
-  "kamenridercraft:krego_card.name": "§9クレゴ"
+  "kamenridercraft:krego_card.name": "§9クレゴ",
+
+  "item.kamenridercraft.another_krego_watch": "アナザークレゴウォッチ",
+
+  "item.kamenridercraft.another_krego_belt": "アナザーアークルツバイ",
+  "kamenridercraft.name.another_krego": "怪人: アナザークレゴ"
 }

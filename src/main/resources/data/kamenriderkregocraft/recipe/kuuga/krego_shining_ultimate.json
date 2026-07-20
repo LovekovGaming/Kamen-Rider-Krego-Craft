@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "krego",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:kuuga_ultimate"
+	},
+	  {
+		  "item": "kamenridercraft:agito_shining"
+	  },
+	  {
+	  "item": "kamenridercraft:g3x"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:krego_shining_ultimate"
+  }
+}

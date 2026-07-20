@@ -1,9 +1,25 @@
 {
-  "item.kamenridercraft.krego": "Krego Amadam",
+  "item.kamenridercraft.krego": "Krego Almighty Amadam",
+  "kamenridercraft:krego.form": "Form: Almighty Form",
+  "item.kamenridercraft.krego_dragon": "Krego Dragon Amadam",
+  "kamenridercraft:krego_dragon.form": "Form: Dragon Form",
+  "item.kamenridercraft.krego_pegasus": "Krego Pegasus Amadam",
+  "kamenridercraft:krego_pegasus.form": "Form: Pegasus Form",
+  "item.kamenridercraft.krego_titan": "Krego Titan Amadam",
+  "kamenridercraft:krego_titan.form": "Form: Titan Form",
+  "item.kamenridercraft.krego_burning": "Krego Burning Amadam",
+  "kamenridercraft:krego_burning.form": "Form: Burning Form",
+  "item.kamenridercraft.krego_shining_ultimate": "Krego Shining Ultimate Amadam",
+  "kamenridercraft:krego_shining_ultimate.form": "Form: Shining Ultimate Form",
 
-  "item.kamenridercraft.krego_belt": "Krego Belt",
+  "item.kamenridercraft.krego_belt": "Arcle Zwei",
   "kamenridercraft.name.krego":"Rider: Kamen Rider Krego",
 
   "item.kamenridercraft.krego_card": "KamenRide Krego",
-  "kamenridercraft:krego_card.name": "§9Krego"
+  "kamenridercraft:krego_card.name": "§9Krego",
+
+  "item.kamenridercraft.another_krego_watch": "Another Krego Watch",
+
+  "item.kamenridercraft.another_krego_belt": "Another Arcle Zwei",
+  "kamenridercraft.name.another_krego": "Kaijin: Another Krego"
 }
