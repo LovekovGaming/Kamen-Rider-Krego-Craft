@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"kamenridercraft:krego"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"kamenriderkregocraft:kuuga/krego_belt",
+			"kamenriderkregocraft:kuuga/manga_krego_belt",
+			"kamenriderkregocraft:kuuga/krego_black",
+			"kamenriderkregocraft:kuuga/ogerk",
+			"kamenriderkregocraft:kuuga/kregnobi"
+		]
+	},
+	"sends_telemetry_event": false
+}

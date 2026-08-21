@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kregnobi",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "kamenridercraft:blank_watch"
+    },
+    "R": {
+      "item": "kamenridercraft:kregnobi"
+    }
+  },
+  "result": {
+    "id": "kamenridercraft:kregnobi_driver"
+  }
+}

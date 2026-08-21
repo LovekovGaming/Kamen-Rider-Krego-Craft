@@ -13,10 +13,10 @@
   "kamenridercraft:krego_shining_ultimate.form": "Form: Shining Ultimate Form",
   "item.kamenridercraft.ogerk": "Ogerk Amadam",
   "item.kamenridercraft.krego_black": "Krego Black Amadam",
+  "item.kamenridercraft.kregnobi": "Kregnobi Amadam",
   "item.kamenridercraft.chair_krego": "Chair Krego Amadam",
 
   "item.kamenridercraft.krego_belt": "Arcle Zwei",
-  "kamenridercraft.name.krego":"Rider: Kamen Rider Krego",
   "kamenridercraft.name.krego": "Rider: Kamen Rider Krego",
   "item.kamenridercraft.ogerk_belt": "Iewz Elcra",
   "kamenridercraft.name.ogerk": "Rider: Kamen Rider Ogerk",
@@ -40,5 +40,7 @@
   "kamenridercraft:another_krego_watch_yanma.form": "Form: Yanma Version",
 
   "item.kamenridercraft.another_krego_belt": "Another Arcle Zwei",
-  "kamenridercraft.name.another_krego": "Kaijin: Another Krego"
+  "kamenridercraft.name.another_krego": "Kaijin: Another Krego",
+  "item.kamenridercraft.kregnobi_driver": "Kregnobi Driver",
+  "kamenridercraft.name.kregnobi":"Rider: Kamen Rider Kregnobi"
 }

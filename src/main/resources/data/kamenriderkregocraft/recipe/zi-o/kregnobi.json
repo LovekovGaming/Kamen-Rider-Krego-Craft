@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kregnobi",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:krego"
+	}, 
+	{
+	  "item": "kamenridercraft:shuriken_starter"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:kregnobi"
+  }
+}

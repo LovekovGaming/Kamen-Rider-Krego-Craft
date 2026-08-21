@@ -1,5 +1,6 @@
 package com.chair.kamenriderkregocraft.item.heisei_phase_2;
 
+import com.chair.kamenriderkregocraft.item.heisei_phase_1.Kuuga_Rider_Items_KregoCraft;
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.effects.EffectCore;
 import com.kelco.kamenridercraft.item.base_items.RiderDriverItem;
@@ -56,6 +57,10 @@ public class Zi_O_Rider_Items_KregoCraft {
     public static final DeferredItem<Item> ANOTHER_ARCLE_ZWEI = ITEMS.register("another_krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "another_krego", ANOTHER_KREGO_WATCH, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,
                     new Item.Properties()).addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
+
+    public static final DeferredItem<Item> KREGNOBI_DRIVER = ITEMS.register("kregnobi_driver",
+            () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "kregnobi", Kuuga_Rider_Items_KregoCraft.KREGNOBI, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,
+                    new Item.Properties()).hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
