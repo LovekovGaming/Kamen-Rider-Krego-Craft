@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"krevil.pose": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"torso": {
+					"rotation": [-3, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"left_leg": {
+					"rotation": [0, -5, -3]
+				},
+				"right_leg": {
+					"rotation": [0, 5, 3]
+				},
+				"right_arm": {
+					"rotation": [-146, -40, 12],
+					"position": [-1, 4, -2]
+				},
+				"left_arm": {
+					"rotation": [0, -5, -5]
+				}
+			}
+		}
+	}
+}

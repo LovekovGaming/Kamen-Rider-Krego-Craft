@@ -54,9 +54,31 @@ public class Zi_O_Rider_Items_KregoCraft {
                 }
             }.addSwitchForm(ANOTHER_KREGO_WATCH_YANMA.get()).addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM));
 
+    public static final DeferredItem<Item> ANOTHER_KREVIL_WATCH = ITEMS.register("another_krevil_watch",
+            () -> new RiderFormChangeItem(new Item.Properties(), "", "another_krevil", "another_krevil_belt",
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)){
+                public void transformationEffect(ItemStack itemstack, LivingEntity player) {
+                    super.transformationEffect(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.DARK_RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLACK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM));
+
     public static final DeferredItem<Item> ANOTHER_ARCLE_ZWEI = ITEMS.register("another_krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "another_krego", ANOTHER_KREGO_WATCH, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,
                     new Item.Properties()).addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
+
+    public static final DeferredItem<Item> ANOTHER_KREVIL_BELT = ITEMS.register("another_krevil_belt",
+            () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "another_krevil", ANOTHER_KREVIL_WATCH, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,
+                    new Item.Properties()).hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
 
     public static final DeferredItem<Item> KREGNOBI_DRIVER = ITEMS.register("kregnobi_driver",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "kregnobi", Kuuga_Rider_Items_KregoCraft.KREGNOBI, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,

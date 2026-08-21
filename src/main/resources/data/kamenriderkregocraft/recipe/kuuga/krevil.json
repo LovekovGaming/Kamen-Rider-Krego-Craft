@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "krevil",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:n_daguva_zeba_ultimate"
+	}, 
+	{
+	  "item": "kamenridercraft:agito_burning"
+	}, 
+	{
+	  "item": "kamenridercraft:g4"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:krevil"
+  }
+}

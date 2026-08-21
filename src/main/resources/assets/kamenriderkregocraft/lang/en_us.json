@@ -11,6 +11,7 @@
   "kamenridercraft:krego_burning.form": "Form: Burning Form",
   "item.kamenridercraft.krego_shining_ultimate": "Krego Shining Ultimate Amadam",
   "kamenridercraft:krego_shining_ultimate.form": "Form: Shining Ultimate Form",
+  "item.kamenridercraft.krevil": "Krevil Amadam",
   "item.kamenridercraft.ogerk": "Ogerk Amadam",
   "item.kamenridercraft.krego_black": "Krego Black Amadam",
   "item.kamenridercraft.kregnobi": "Kregnobi Amadam",
@@ -18,6 +19,8 @@
 
   "item.kamenridercraft.krego_belt": "Arcle Zwei",
   "kamenridercraft.name.krego": "Rider: Kamen Rider Krego",
+  "item.kamenridercraft.krevil_belt": "Evil Arcle Zwei",
+  "kamenridercraft.name.krevil": "Rider: Kamen Rider Krevil",
   "item.kamenridercraft.ogerk_belt": "Iewz Elcra",
   "kamenridercraft.name.ogerk": "Rider: Kamen Rider Ogerk",
   "item.kamenridercraft.krego_black_belt": "Arcle Zwei Black",
@@ -38,9 +41,12 @@
   "item.kamenridercraft.another_krego_watch": "Another Krego Watch",
   "kamenridercraft:another_krego_watch.form": "Form: Base Form",
   "kamenridercraft:another_krego_watch_yanma.form": "Form: Yanma Version",
+  "item.kamenridercraft.another_krevil_watch": "Another Krevil Watch",
 
   "item.kamenridercraft.another_krego_belt": "Another Arcle Zwei",
   "kamenridercraft.name.another_krego": "Kaijin: Another Krego",
+  "item.kamenridercraft.another_krevil_belt": "Another Evil Arcle Zwei",
+  "kamenridercraft.name.another_krevil": "Kaijin: Another Krevil",
   "item.kamenridercraft.kregnobi_driver": "Kregnobi Driver",
   "kamenridercraft.name.kregnobi":"Rider: Kamen Rider Kregnobi"
 }

@@ -120,6 +120,24 @@ public class Kuuga_Rider_Items_KregoCraft {
                 }
             }.setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).changeModel("krego.geo.json").isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
 
+    public static final DeferredItem<Item> KREVIL = ITEMS.register("krevil",
+            () -> new RiderFormChangeItem(new Item.Properties().rarity(Rarity.UNCOMMON),"","krevil","alter_ring_belt_b",
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false),
+                    new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 1,true,false)){
+                public void transformationEffect(ItemStack itemstack, LivingEntity player) {
+                    super.transformationEffect(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 200, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.BLACK_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY()+1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            }.isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
+
     public static final DeferredItem<Item> OGERK = ITEMS.register("ogerk",
             () -> new RiderFormChangeItem(new Item.Properties(),"","ogerk","ogerk_belt",
                     new MobEffectInstance(EffectCore.PUNCH, 40, 1,true,false)
@@ -194,6 +212,10 @@ public class Kuuga_Rider_Items_KregoCraft {
     public static final DeferredItem<Item> ARCLE_ZWEI = ITEMS.register("krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego", KREGO, KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties())
                     .addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).changeRepairItem(KuugaRiderItems.KUUGA_GROWING.get()));
+
+    public static final DeferredItem<Item> KREVIL_BELT = ITEMS.register("krevil_belt",
+            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krevil", KREVIL, KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties().rarity(Rarity.UNCOMMON))
+                    .hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).changeRepairItem(KuugaRiderItems.KUUGA_GROWING.get()));
 
     public static final DeferredItem<Item> OGERK_BELT = ITEMS.register("ogerk_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"ogerk", OGERK, KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties())
