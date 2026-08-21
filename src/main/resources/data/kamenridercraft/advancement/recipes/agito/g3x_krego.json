@@ -21,7 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"kamenridercraft:kuuga/krego_shining_ultimate"
+			"kamenriderkregocraft:kuuga/krego_shining_ultimate"
 		]
 	},
 	"sends_telemetry_event": false

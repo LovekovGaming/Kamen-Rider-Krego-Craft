@@ -21,10 +21,10 @@
 	],
 	"rewards": {
 		"recipes": [
-			"kamenridercraft:kuuga/krego",
-			"kamenridercraft:kuuga/krego_dragon",
-			"kamenridercraft:kuuga/krego_pegasus",
-			"kamenridercraft:kuuga/krego_titan"
+			"kamenriderkregocraft:kuuga/krego",
+			"kamenriderkregocraft:kuuga/krego_dragon",
+			"kamenriderkregocraft:kuuga/krego_pegasus",
+			"kamenriderkregocraft:kuuga/krego_titan"
 		]
 	},
 	"sends_telemetry_event": false

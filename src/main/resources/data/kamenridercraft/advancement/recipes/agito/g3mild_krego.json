@@ -21,7 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"kamenridercraft:kuuga/krego_burning"
+			"kamenriderkregocraft:kuuga/krego_burning"
 		]
 	},
 	"sends_telemetry_event": false
