@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "krego_black",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "kamenridercraft:kuuga_growing"
+    },
+    "R": {
+      "item": "kamenridercraft:krego_black"
+    }
+  },
+  "result": {
+    "id": "kamenridercraft:krego_black_belt"
+  }
+}

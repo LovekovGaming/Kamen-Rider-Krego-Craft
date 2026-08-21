@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ogerk",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:krego"
+	}, 
+	{
+	  "item": "kamenridercraft:advent_deck_blank"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:ogerk"
+  }
+}

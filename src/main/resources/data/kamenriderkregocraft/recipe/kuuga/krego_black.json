@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "krego_black",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:krego"
+	}, 
+	{
+	  "item": "minecraft:black_dye"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:krego_black"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair_krego",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "kamenridercraft:kuuga_growing"
+    },
+    "R": {
+      "item": "kamenridercraft:chair_krego"
+    }
+  },
+  "result": {
+    "id": "kamenridercraft:chair_krego_belt"
+  }
+}

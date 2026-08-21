@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "krego",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:krego_dragon"
+	},
+	  {
+		  "item": "kamenridercraft:krego_pegasus"
+	  },
+	  {
+	  "item": "kamenridercraft:ichigo_chair"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:chair_krego"
+  }
+}
