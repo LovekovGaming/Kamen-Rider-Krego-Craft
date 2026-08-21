@@ -147,6 +147,13 @@ public class Kuuga_Rider_Items_KregoCraft {
                 }
             }.setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).changeModel("krego.geo.json").isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
 
+    public static final DeferredItem<Item> MANGA_KREGO = ITEMS.register("manga_krego",
+            () -> new RiderFormChangeItem(new Item.Properties(),"","krego_manga","krego_belt_manga",
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 1,true,false)
+                    , new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false)
+                    ,new MobEffectInstance(EffectCore.FLAT, 40, 0,true,false))
+                    .setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).changeModel("krego.geo.json").isGlowing().IsBeltGlowing());
+
     public static final DeferredItem<Item> CHAIR_KREGO = ITEMS.register("chair_krego",
             () -> new RiderFormChangeItem(new Item.Properties(),"","krego_chair","krego_belt_c",
                     new MobEffectInstance(MobEffects.DIG_SPEED, 40, 0,true,false),
@@ -180,6 +187,10 @@ public class Kuuga_Rider_Items_KregoCraft {
     public static final DeferredItem<Item> KREGO_BLACK_BELT = ITEMS.register("krego_black_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego_black", KREGO_BLACK, KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties())
                     .hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).changeRepairItem(KuugaRiderItems.KUUGA_GROWING.get()));
+
+    public static final DeferredItem<Item> MANGA_ARCLE_ZWEI = ITEMS.register("manga_krego_belt",
+            () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego_manga", MANGA_KREGO ,KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties()
+                    .rarity(Rarity.UNCOMMON)).hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM).changeRepairItem(KuugaRiderItems.KUUGA_GROWING.get()));
 
     public static final DeferredItem<Item> CHAIR_KREGO_BELT = ITEMS.register("chair_krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"krego_chair", CHAIR_KREGO ,KuugaRiderItems.KUUGAHELMET, KuugaRiderItems.KUUGACHESTPLATE, KuugaRiderItems.KUUGALEGGINGS, new Item.Properties()
