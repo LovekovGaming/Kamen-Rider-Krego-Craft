@@ -23,6 +23,21 @@ public class Zi_O_Rider_Items_KregoCraft {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(KamenRiderCraftCore.MOD_ID);
 
+    public static final DeferredItem<Item> ANOTHER_KREGO_WATCH_YANMA = ITEMS.register("another_krego_watch_yanma",
+            () -> new RiderFormChangeItem(new Item.Properties(), "_yanma", "another_krego", "another_krego_belt",
+                    new MobEffectInstance(EffectCore.PUNCH, 40, 1,true,false)
+                    , new MobEffectInstance(MobEffects.JUMP, 40, 0,true,false)) {
+                public void transformationEffect(ItemStack itemstack, LivingEntity player) {
+                    super.transformationEffect(itemstack, player);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.DARK_RED_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                    ((ServerLevel) player.level()).sendParticles(ModParticles.DARK_BLUE_SPARK_PARTICLES.get(),
+                            player.getX(), player.getY() + 1,
+                            player.getZ(), 100, 0, 0, 0, 1);
+                }
+            });
+
     public static final DeferredItem<Item> ANOTHER_KREGO_WATCH = ITEMS.register("another_krego_watch",
             () -> new RiderFormChangeItem(new Item.Properties(), "", "another_krego", "another_krego_belt",
                     new MobEffectInstance(EffectCore.PUNCH, 40, 1,true,false)
@@ -36,11 +51,11 @@ public class Zi_O_Rider_Items_KregoCraft {
                             player.getX(), player.getY() + 1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.hasCape().addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM));
+            }.addSwitchForm(ANOTHER_KREGO_WATCH_YANMA.get()).addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM));
 
     public static final DeferredItem<Item> ANOTHER_ARCLE_ZWEI = ITEMS.register("another_krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND, "another_krego", ANOTHER_KREGO_WATCH, ZiORiderItems.ZI_O_HELMET, ZiORiderItems.ZI_O_CHESTPLATE, ZiORiderItems.ZI_O_LEGGINGS,
-                    new Item.Properties()).hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
+                    new Item.Properties()).addToList(KamenRiderCraftCore.CreativeTabRegistry.ZI_O_TAB_ITEM).changeRepairItem(BLANK_RIDEWATCH.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
