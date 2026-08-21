@@ -35,7 +35,7 @@ public class Kuuga_Rider_Items_KregoCraft {
                             player.getX(), player.getY() + 1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
+            }.setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
     
     public static final DeferredItem<Item> KREGO_DRAGON = ITEMS.register("krego_dragon",
             () -> new RiderFormChangeItem(new Item.Properties(),"_dragon","krego","krego_belt_d",
@@ -92,7 +92,7 @@ public class Kuuga_Rider_Items_KregoCraft {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
+            }.setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
 
     public static final DeferredItem<Item> KREGO_SHINING_ULTIMATE = ITEMS.register("krego_shining_ultimate",
             () -> new RiderFormChangeItem(new Item.Properties().rarity(Rarity.UNCOMMON),"_shining_ultimate","krego","krego_belt_su",
@@ -118,7 +118,7 @@ public class Kuuga_Rider_Items_KregoCraft {
                             player.getX(), player.getY()+1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.changeModel("krego.geo.json").isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
+            }.setSlotOneAbility("rider_punch", 1).setSlotTwoAbility("rider_kick", 1).changeModel("krego.geo.json").isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.KUUGA_TAB_ITEM));
 
     public static final DeferredItem<Item> OGERK = ITEMS.register("ogerk",
             () -> new RiderFormChangeItem(new Item.Properties(),"","ogerk","ogerk_belt",
