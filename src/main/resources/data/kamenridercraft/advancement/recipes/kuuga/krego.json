@@ -22,10 +22,10 @@
 	"rewards": {
 		"recipes": [
 			"kamenriderkregocraft:kuuga/krego_belt",
-			"kamenriderkregocraft:kuuga/manga_krego_belt",
 			"kamenriderkregocraft:kuuga/krego_black",
 			"kamenriderkregocraft:kuuga/ogerk",
-			"kamenriderkregocraft:kuuga/kregnobi"
+			"kamenriderkregocraft:kuuga/kregnobi",
+			"kamenriderkregocraft:kuuga/shocker_krego"
 		]
 	},
 	"sends_telemetry_event": false
