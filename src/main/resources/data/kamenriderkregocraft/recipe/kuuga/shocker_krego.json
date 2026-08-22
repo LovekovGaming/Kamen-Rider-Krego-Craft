@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "krego",
+  "group": "shocker_krego",
   "ingredients": [
 	{
 	  "item": "kamenridercraft:krego"

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"reiwa_krego.pose": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"rotation": [-10, -120, 0],
+					"position": [0, -1.5, 0]
+				},
+				"left_leg": {
+					"rotation": [21, -27, -18],
+					"position": [0, 0, 1]
+				},
+				"right_leg": {
+					"rotation": [2, 12, 12]
+				},
+				"head": {
+					"rotation": [43, 64, 40]
+				},
+				"right_arm": {
+					"rotation": [9, 14, 8]
+				},
+				"left_arm": {
+					"rotation": [7, 3, -2],
+					"position": [0, 0, 1]
+				},
+				"right_item": {
+					"rotation": [30, 0, 0],
+					"position": [0, -1, 0]
+				}
+			}
+		}
+	}
+}

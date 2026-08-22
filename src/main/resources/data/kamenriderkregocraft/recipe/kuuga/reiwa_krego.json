@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "reiwa_krego",
+  "ingredients": [
+	{
+	  "item": "kamenridercraft:krego"
+	}, 
+	{
+	  "item": "kamenridercraft:blank_progrisekey"
+	}
+	],
+  "result": {
+	"id": "kamenridercraft:reiwa_krego"
+  }
+}
