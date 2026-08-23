@@ -1,10 +1,11 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/kamen-rider-krego-craft",
   "promos": {
-    "1.21.1-latest": "1.1.0",
-    "1.21.1-recommended": "1.1.0"
+    "1.21.1-latest": "1.2.0",
+    "1.21.1-recommended": "1.2.0"
   },
   "1.21.1": {
+	"1.2.0": "Added 10 new Krego variants.",
 	"1.1.0": "Added Another Krego and more Krego forms.",
 	"1.0.0": "Initial release."
   }
