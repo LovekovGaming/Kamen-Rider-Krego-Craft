@@ -84,7 +84,7 @@ side="BOTH"
 modId="kamenridercraft"
 type="required"
 reason = "This mod is an addon for the Kamen Rider Craft mod."
-versionRange="[1.1.2,)"
+versionRange="[1.1.5,)"
 ordering="AFTER"
 side="BOTH"
 

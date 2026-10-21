@@ -2,6 +2,7 @@ package com.chair.kamenriderkregocraft.item.heisei_phase_1;
 
 import com.kelco.kamenridercraft.KamenRiderCraftCore;
 import com.kelco.kamenridercraft.effects.EffectCore;
+import com.kelco.kamenridercraft.item.KRCCreativeTabs;
 import com.kelco.kamenridercraft.item.base_items.RiderDriverItem;
 import com.kelco.kamenridercraft.item.base_items.RiderFormChangeItem;
 import com.kelco.kamenridercraft.item.heisei_phase_1.AgitoRiderItems;
@@ -34,11 +35,11 @@ public class Agito_Rider_Items_KregoCraft {
                             player.getX(), player.getY() + 1,
                             player.getZ(), 100, 0, 0, 0, 1);
                 }
-            }.isGlowing().IsBeltGlowing().addToList(KamenRiderCraftCore.CreativeTabRegistry.AGITO_TAB_ITEM));
+            }.isGlowing().IsBeltGlowing().addToList(KRCCreativeTabs.AGITO_TAB_ITEM));
 
     public static final DeferredItem<Item> G_BUCKLE_ARTIFICIAL_KREGO = ITEMS.register("artificial_krego_belt",
             () -> new RiderDriverItem(ArmorMaterials.DIAMOND,"artificial_krego", ARTIFICIAL_KREGO_CHIP, AgitoRiderItems.AGITOHELMET, AgitoRiderItems.AGITOCHESTPLATE, AgitoRiderItems.AGITOLEGGINGS, new Item.Properties())
-                    .hideBeltFormInfo().addToList(KamenRiderCraftCore.CreativeTabRegistry.AGITO_TAB_ITEM).changeRepairItem(AgitoRiderItems.BLANK_G_SYSTEM_CHIP.get()));
+                    .hideBeltFormInfo().addToList(KRCCreativeTabs.AGITO_TAB_ITEM).changeRepairItem(AgitoRiderItems.BLANK_G_SYSTEM_CHIP.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
