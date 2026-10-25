@@ -144,7 +144,7 @@ configurations.configureEach {
 }
 
 dependencies {
-    implementation "curse.maven:kamen-rider-craft-306845:8475296"
+    implementation "curse.maven:kamen-rider-craft-306845:9326884"
     implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
     implementation "com.zigythebird.playeranim:PlayerAnimationLibNeo:$pal_version"
 }
